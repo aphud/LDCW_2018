@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_operating_system_type" table="x_snc_lowesdatac2_datacenter_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_operating_system_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AIX</label>
+            <language>en</language>
+            <name>x_snc_lowesdatac2_datacenter_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-30 03:19:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>911d8a14dbc8db00daa1bff0ef96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-30 03:19:52</sys_updated_on>
+            <value>aix</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_operating_system_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows</label>
+            <language>en</language>
+            <name>x_snc_lowesdatac2_datacenter_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-30 03:19:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>911d8a14dbc8db00daa1bff0ef96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-30 03:19:52</sys_updated_on>
+            <value>windows</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_operating_system_type</element>
+            <name>x_snc_lowesdatac2_datacenter_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-30 03:19:52</sys_created_on>
+            <sys_id>5d1d8a14dbc8db00daa1bff0ef96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_operating_system_type</sys_name>
+            <sys_package display_value="LowesDatacenter" source="x_snc_lowesdatac2">915a6bf2dbf34b00daa1bff0ef961958</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="LowesDatacenter">915a6bf2dbf34b00daa1bff0ef961958</sys_scope>
+            <sys_update_name>sys_choice_x_snc_lowesdatac2_datacenter_request_u_operating_system_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-30 03:19:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

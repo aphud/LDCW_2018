@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA New Tab">34fef328db841f00daa1bff0ef9619de</canvas_page>
+        <name>New Tab</name>
+        <page display_value="PA New Tab">fcfe7328db841f00daa1bff0ef9619df</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>wesley.stanley</sys_created_by>
+        <sys_created_on>2018-01-31 06:15:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7cfef328db841f00daa1bff0ef9619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LowesDatacenter" source="x_snc_lowesdatac2">915a6bf2dbf34b00daa1bff0ef961958</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LowesDatacenter">915a6bf2dbf34b00daa1bff0ef961958</sys_scope>
+        <sys_update_name>pa_tabs_7cfef328db841f00daa1bff0ef9619df</sys_update_name>
+        <sys_updated_by>wesley.stanley</sys_updated_by>
+        <sys_updated_on>2018-01-31 06:15:51</sys_updated_on>
+    </pa_tabs>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_lowesdatac2.group" name="x_snc_lowesdatac2.group">e05c1c50db08db00daa1bff0ef9619ec</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-29 19:07:13</sys_created_on>
+        <sys_id>245c5c50db08db00daa1bff0ef961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e05c1c50db08db00daa1bff0ef9619ec</sys_name>
+        <sys_package display_value="LowesDatacenter" source="x_snc_lowesdatac2">915a6bf2dbf34b00daa1bff0ef961958</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LowesDatacenter">915a6bf2dbf34b00daa1bff0ef961958</sys_scope>
+        <sys_update_name>sys_embedded_help_role_245c5c50db08db00daa1bff0ef961945</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-29 19:07:13</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

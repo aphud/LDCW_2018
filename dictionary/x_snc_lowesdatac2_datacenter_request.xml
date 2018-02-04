@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="task" label="Datacenter Request" max_length="40" name="x_snc_lowesdatac2_datacenter_request" sizeclass="18" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Cluster Hostnames" max_length="40" name="u_cluster_hostnames" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="standalone" label="Cluster Type" max_length="40" name="u_cluster_type" type="string">
+            <choice>
+                <element label="Standalone" sequence="0" value="standalone"/>
+                <element label="Cluster" sequence="1" value="cluster"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="DR Instructions" max_length="40" name="u_dr_instructions" type="string"/>
+        <element label="DR Server" max_length="32" name="u_dr_server" reference="cmdb_ci" type="reference"/>
+        <element label="IP Address" max_length="40" name="u_ip_addr_4" type="ip_addr"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="OS Type" max_length="40" name="u_operating_system_type" type="string">
+            <choice>
+                <element label="AIX" sequence="0" value="aix"/>
+                <element label="Windows" sequence="1" value="windows"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element label="Decomm" sequence="0" value="decomm"/>
+                <element label="Provision" sequence="1" value="provision"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Firewall Rules To Remove" max_length="40" name="u_rm_firewall_rules" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="physical" label="Server Type" max_length="40" name="u_server_type" type="string">
+            <choice>
+                <element label="Physical" sequence="0" value="Physical"/>
+                <element label="Virtual" sequence="1" value="Virtual"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Special Instructions" max_length="40" name="u_special_instructions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="WWN's" max_length="40" name="u_wwns" type="string"/>
+    </element>
+</database>

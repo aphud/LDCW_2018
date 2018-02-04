@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="My ITIL Homepage">39fd3fa4db841f00daa1bff0ef9619a8</dashboard>
+        <delete>false</delete>
+        <group display_value="ESS UNIX" name="ESS UNIX">87ec5490db08db00daa1bff0ef961989</group>
+        <identity>87ec5490db08db00daa1bff0ef961989</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-31 06:12:46</sys_created_on>
+        <sys_id>e73e3fe4db841f00daa1bff0ef961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>87ec5490db08db00daa1bff0ef961989</sys_name>
+        <sys_package display_value="LowesDatacenter" source="x_snc_lowesdatac2">915a6bf2dbf34b00daa1bff0ef961958</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LowesDatacenter">915a6bf2dbf34b00daa1bff0ef961958</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_e73e3fe4db841f00daa1bff0ef961936</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-31 06:12:46</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>true</write>
+    </pa_dashboards_permissions>
+</record_update>
