@@ -45,7 +45,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-01-30 03:00:54</sys_created_on>
-            <sys_id>d3b80e90dbc8db00daa1bff0ef961998</sys_id>
+            <sys_id>2d7ba041dbd01740daa1bff0ef9619ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_cluster_type</sys_name>
             <sys_package display_value="LowesDatacenter" source="x_snc_lowesdatac2">915a6bf2dbf34b00daa1bff0ef961958</sys_package>

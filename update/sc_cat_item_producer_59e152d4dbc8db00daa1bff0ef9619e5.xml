@@ -45,7 +45,14 @@
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[current.short_description = "Decomm Requested for " + current.cmdb_ci.name;]]></script>
+        <script><![CDATA[if (current.u_request_type == "decomm")
+	{
+current.short_description = current.u_request_type + " Requested for " + current.cmdb_ci.name;
+}
+	else
+		{
+	current.short_description = current.u_request_type + " Requested for " + current.u_new_server_name;
+	}]]></script>
         <short_description>Request a Datacenter Resource be Created or Decommissioned</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -53,14 +60,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-01-30 03:40:54</sys_created_on>
         <sys_id>59e152d4dbc8db00daa1bff0ef9619e5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Commission / Decommission Request</sys_name>
         <sys_package display_value="LowesDatacenter" source="x_snc_lowesdatac2">915a6bf2dbf34b00daa1bff0ef961958</sys_package>
         <sys_policy/>
         <sys_scope display_value="LowesDatacenter">915a6bf2dbf34b00daa1bff0ef961958</sys_scope>
         <sys_update_name>sc_cat_item_producer_59e152d4dbc8db00daa1bff0ef9619e5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-31 06:20:39</sys_updated_on>
+        <sys_updated_on>2018-02-14 04:39:31</sys_updated_on>
         <table_name>x_snc_lowesdatac2_datacenter_request</table_name>
         <template/>
         <type>item</type>

@@ -3,7 +3,7 @@
     <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
         <dashboard display_value="My ITIL Homepage">39fd3fa4db841f00daa1bff0ef9619a8</dashboard>
         <home>false</home>
-        <homepage display_value="My ITIL Homepage">bbddfba4db841f00daa1bff0ef96195f</homepage>
+        <homepage display_value="">bbddfba4db841f00daa1bff0ef96195f</homepage>
         <order>1</order>
         <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
         <sys_created_by>admin</sys_created_by>

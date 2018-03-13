@@ -3,7 +3,7 @@
     <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
         <dashboard display_value="Datacenter Request Dashboard">f8fe7328db841f00daa1bff0ef9619de</dashboard>
         <home>false</home>
-        <homepage display_value="My  ITIL Homepage">255e7fe4db841f00daa1bff0ef961930</homepage>
+        <homepage display_value="">255e7fe4db841f00daa1bff0ef961930</homepage>
         <order>1</order>
         <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
         <sys_created_by>wesley.stanley</sys_created_by>

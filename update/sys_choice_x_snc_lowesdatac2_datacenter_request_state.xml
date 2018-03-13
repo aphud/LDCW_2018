@@ -140,7 +140,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-01-25 18:39:24</sys_created_on>
-            <sys_id>0a9f27f6dbf34b00daa1bff0ef9619f5</sys_id>
+            <sys_id>e97ba041dbd01740daa1bff0ef961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="LowesDatacenter" source="x_snc_lowesdatac2">915a6bf2dbf34b00daa1bff0ef961958</sys_package>
